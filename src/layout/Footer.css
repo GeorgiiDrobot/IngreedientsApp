@@ -1,0 +1,33 @@
+.footer-container {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    background: grey;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.footer-container ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container ul li {
+    margin-left: 10px;
+    list-style: none;
+    color: black;
+}
+
+.footer-container a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container a:hover {
+    transition: 0.3s;
+    text-decoration: underline;
+    color: rgb(216, 212, 212);
+}
