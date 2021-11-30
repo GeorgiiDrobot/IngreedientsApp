@@ -8,7 +8,7 @@
     text-align: center;
 }
 .card-container:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 .image-container img {
@@ -43,13 +43,7 @@ h3, p {
     border: none;
     transition: 0.2s;
     text-decoration: none;
-}
-
-.btn button:hover{
-    text-decoration: underline;
-}
-
-.btn a {
     font-weight: bold;
-    text-transform: uppercase;
+    color: #969696;
 }
+

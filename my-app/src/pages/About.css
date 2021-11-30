@@ -35,23 +35,26 @@
 
 .first-box-container {
     overflow: hidden;
-    width: 300px;
-    height: 550px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 5px;
-    background-color: rgb(175, 173, 169);
-}
-
-.second-box-container {
-    overflow: hidden;
-    width: 400px;
-    height: 520px;
+    width: 350px;
+    height: 500px;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
     background-color: rgb(175, 173, 169);
     margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.second-box-container {
+    overflow: hidden;
+    width: 400px;
+    height: 550px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(175, 173, 169);
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .third-box-container {
@@ -63,4 +66,5 @@
     border-radius: 5px;
     background-color: rgb(175, 173, 169);
     margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }

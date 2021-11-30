@@ -5,7 +5,8 @@ function Card({title, imageUrl, text, link}) {
     return (
         <div className='card-container'>
             <div className='image-container'>
-                <img src={imageUrl} alt=''></img>
+                <a href={link}>
+                    <img src={imageUrl} alt='' ></img></a>
             </div>
             <div className='card-content'>
                 <div className='card-title'>
@@ -17,7 +18,7 @@ function Card({title, imageUrl, text, link}) {
             </div>
             
             <div className='btn'>
-                <button><a href={link}>View more</a></button>
+                <button>Click on a picture to see more</button>
             </div>
         </div>
     )
