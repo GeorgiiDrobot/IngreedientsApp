@@ -1,6 +1,4 @@
-import LocalizedStrings from 'react-localization';
-
-let strings = new LocalizedStrings({
+var arrLang = {
     en: {
         home:"home",
         about:"about",
@@ -11,6 +9,6 @@ let strings = new LocalizedStrings({
         about:"Инфо",
         contact:"контакты"
     }
-});
+};
 
-export default {strings};
+export default arrLang;
