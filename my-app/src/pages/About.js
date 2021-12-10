@@ -1,6 +1,6 @@
 import React from 'react'
 import { Layout } from '../layout';
-import transs from '../lang';
+//import transs from '../lang';
 
 import './About.css';
 

@@ -17,7 +17,7 @@ const navs = [
 },
 ]
 
-const navsRus = [
+/* const navsRus = [
     { //If you want to add a page you have to add it here
         path: "/",
         name: "Домой",
@@ -30,7 +30,7 @@ const navsRus = [
         path: "/contact",
         name: "Контакты",
     },
-    ]
+    ] */
 
 const Nav = () => (
     <nav>
